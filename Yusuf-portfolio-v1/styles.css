@@ -1,0 +1,8 @@
+:root{--bg:#05050a;--accent:#7c3aed;--muted:#cfc6de}
+body{margin:0;font-family:Arial;background:var(--bg);color:var(--muted)}
+.hero{padding:60px 20px;text-align:center}
+.name{font-size:28px;color:white;font-weight:700}
+.role{margin:8px 0}
+.cta{display:inline-block;margin-top:12px;padding:10px 16px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none}
+.about{padding:24px}
+.contact{text-align:center;padding:20px;border-top:1px solid rgba(255,255,255,.03)}
