@@ -1,0 +1,13 @@
+:root{--bg:#07050a;--panel:#0f0b12;--accent:#7c3aed;--muted:#cbbfe0}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--muted);font-family:Arial}
+.product{display:flex;gap:28px;align-items:center;min-height:70vh;padding:28px}
+.left{flex:1}
+.right{flex:1;display:flex;align-items:center;justify-content:center}
+h1{color:white;margin:0 0 12px}
+ul{padding-left:18px}
+.buy-row{margin-top:18px;display:flex;align-items:center;gap:14px}
+.price{color:white;font-size:20px}
+.btn{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
+.watch{font-size:90px;filter:drop-shadow(0 12px 28px rgba(124,58,237,.15))}
+@media(max-width:800px){ .product{flex-direction:column;text-align:center} }
